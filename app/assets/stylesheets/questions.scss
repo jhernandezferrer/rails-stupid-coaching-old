@@ -1,0 +1,36 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+//import fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+// Defining a variable
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  width: 400px;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+p {
+  font-weight: 300;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+button, #button {
+  background-color: rgb(0, 153, 255);
+  color: white;
+}
